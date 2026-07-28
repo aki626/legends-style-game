@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Anime Battle Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Energy Warriors</h1>
+
+<div class="battle">
+
+<div class="fighter">
+<h2 id="playerName">Azure Fighter</h2>
+<div class="hp">
+<div id="playerHP"></div>
+</div>
+<p>気力 <span id="playerKi"></span></p>
+</div>
+
+
+<div class="vs">
+VS
+</div>
+
+
+<div class="fighter">
+<h2>Shadow Warrior</h2>
+<div class="hp enemy">
+<div id="enemyHP"></div>
+</div>
+</div>
+
+</div>
+
+
+<div id="cards">
+<button onclick="attack(10)">⚔ 打撃</button>
+<button onclick="attack(15)">🔥 気弾</button>
+<button onclick="attack(20)">💥 強攻撃</button>
+<button onclick="special()">🌟 必殺技</button>
+</div>
+
+
+<h2 id="message"></h2>
+
+
+<script src="game.js"></script>
+
+</body>
+</html>
